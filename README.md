@@ -1,3 +1,3 @@
 # bootstrap_CV
 
-### Deployment: 
+### Deployment: https://hakim-tamoum.github.io/bootstrap_CV/
