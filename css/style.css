@@ -25,7 +25,6 @@ section .heading h2{ text-transform: uppercase }
 }
 ul,ol{list-style: none}
 
-
 /*  navbar  */
 .navbar{
     background-color: #d83c3e;
@@ -196,37 +195,50 @@ ul,ol{list-style: none}
 .timeline-heading h4{ color: #d82c2e }
 
 /*  education  */
-#education{
-    background: #fff
-}
-#education .heading h2{
-    color: #d82c2e
-}
+#education{ background: #fff }
+
+#education .heading h2{ color: #d82c2e }
+
 .education-block{
     widows: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
     background-color: #ddd;
     border-radius: 10px;
-    border: 2px solid #ccc;
-    margin-bottom: 20px
+    border: 3px solid #ccc;
+    margin-bottom: 25px;
+    padding: 10px 10px
 }
 .education-block h5{
     color: #888;
     font-size: 15px;
     margin-bottom: 15px
 }
-.education-block .glyphicon{
-    font-size: 40px;
-}
-.education-block h3{ color: #d82c2e }
+.education-block .glyphicon{ font-size: 40px }
+
+.education-block h3{ color: #d82c2e; font-size: 22px }
 
 .education-block h4{ margin-bottom: 20px }
 
 .education-block p{ font-weight: bold}
 
 .education-block .red-divider{ margin-bottom: 20px }
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s ease-in-out;
+    cursor: pointer
+}
+.card:hover { transform: rotateY(180deg) }
+
+.card > div img{position: absolute}
+
+.font {backface-visibility: hidden}
+.back {backface-visibility: hidden; transform: rotateY(180deg)}
+.back img {height: 290px}
+
+
 
 /* portfolio */
 #portfolio{ background-color: #d82c2e}
