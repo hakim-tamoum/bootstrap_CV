@@ -8,4 +8,8 @@ $(function(){
         })
     });
     $('#to, #hi').tooltip();
+    
+    $('#education .voir-plus').click(function(){
+        $('.hid').slideDown(700);  
+    });
 })

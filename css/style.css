@@ -52,7 +52,7 @@ ul,ol{list-style: none}
 .navbar-default .navbar-toggle{
     border-style: none;
 }
-
+.hid {display: none}
 
 
 
@@ -238,7 +238,48 @@ ul,ol{list-style: none}
 .back {backface-visibility: hidden; transform: rotateY(180deg)}
 .back img {height: 290px}
 
-
+/*#experience button {
+    padding: 7px 0;
+    width: 140px;
+    font-size: 15px;
+    border: 1px solid rgba(247, 96, 14, .5);
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #d82c2e;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+}
+#experience button:hover {
+    background-color: rgba(247, 96, 14, .7);
+    color: #fff;
+    border: 1px solid #fff;
+    
+}*/
+.voir-plus {
+    background: transparent;
+    padding: 7px 0;
+    width: 140px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    float: right;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: #444
+}
+.voir-plus:hover {
+    background-color: #d82c2e;
+    color: #fff;
+    border: 1px solid #d82c2e
+}
 
 /* portfolio */
 #portfolio{ background-color: #d82c2e}
