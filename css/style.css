@@ -280,7 +280,13 @@ ul,ol{list-style: none}
     color: #fff;
     border: 1px solid #d82c2e
 }
-
+.branch{
+    height: 250px;
+    width: 100%;
+    background-image: url('../img/recommendation.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
 /* portfolio */
 #portfolio{ background-color: #d82c2e}
 
@@ -299,7 +305,8 @@ ul,ol{list-style: none}
 
 /* recommandation  */
 #recommandations{
-    background-color: #fff
+    background-image: url('../img/recommendation.jpg');
+    background-attachment: fixed;
 }
 #recommandations .heading h2{
     color: #d82c2e
