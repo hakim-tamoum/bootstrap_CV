@@ -286,6 +286,7 @@ ul,ol{list-style: none}
     background-image: url('../img/img2.jpg');
     background-attachment: fixed;
     background-size: cover;
+
 }
 /* portfolio */
 #portfolio{ background-color: #d82c2e}
